@@ -1,6 +1,6 @@
 <?php
 include 'db_connect.php';
-//ChatGPT generated because I didn't want to import any frameworks nor write all this out
+//ChatGPT generated because I didn't want to import any frameworks nor write all this out. I know this is terrible website structure but I just wanted some quick organization. 
 $sql = "SELECT * FROM posts";
 $result = $conn->query($sql);
 
