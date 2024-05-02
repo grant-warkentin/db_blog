@@ -1,3 +1,25 @@
+#DB_Dlog 
+This Project is built the LAMP Stack via docker as defined below. 
+
+I have modified the /www root directory with html forms and php scripts to resemble a blog/discussion board.
+A database has been added with the following tables
+  -users
+  -posts
+  -comments
+  -categories
+  -tags
+  -postTags
+
+##Installation
+
+Make sure you have docker on your machine and are in a Linux environment.
+
+- Clone this repository on your local computer
+- configure .env as needed
+- Run the `docker compose up -d`.
+- access the landing page via HTTP:localhost
+- for admin access visit HTTP:localhost/admin.php
+
 # LAMP stack built with Docker Compose
 
 ![Landing Page](https://user-images.githubusercontent.com/43859895/141092846-905eae39-0169-4fd7-911f-9ff32c48b7e8.png)
