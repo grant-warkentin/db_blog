@@ -1,16 +1,16 @@
-#DB_Dlog 
+# DB_Dlog 
 This Project is built the LAMP Stack via docker as defined below. 
 
 I have modified the /www root directory with html forms and php scripts to resemble a blog/discussion board.
-A database has been added with the following tables
-  -users
-  -posts
-  -comments
-  -categories
-  -tags
-  -postTags
+A database has been added with the following tables:
+-users
+-posts
+-comments
+-categories
+-tags
+-postTags
 
-##Installation
+## Installation
 
 Make sure you have docker on your machine and are in a Linux environment.
 
